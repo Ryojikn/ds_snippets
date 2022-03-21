@@ -12,13 +12,10 @@ define([
 
     var python_menus = [
         python.numpy,
+        python.numba,
         python.scipy,
         python.matplotlib,
-        python.sympy,
         python.pandas,
-        python.astropy,
-        python.h5py,
-        python.numba,
         python.python,
     ];
 
@@ -40,13 +37,10 @@ define([
 
     var includable_submenu_keys = [
         "numpy",
+        "numba",
         "scipy",
         "matplotlib",
-        "sympy",
         "pandas",
-        "astropy",
-        "h5py",
-        "numba",
         "python",
         "markdown",
     ];
